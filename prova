@@ -1,0 +1,5 @@
+prova
+var cons =function (fns){
+  return function (x) {
+	return  fns.map{function (item){return item (x);
+	}}
